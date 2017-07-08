@@ -1,0 +1,25 @@
+#################################################################################################################
+													README
+											   TRABALHO PRÁTICO 2
+					 IMPLEMENTAÇÃO DE UMA APLICAÇÃO CLIENTE-SERVIDOR SOBRE O PROTOCOLO UDP
+										
+Alunas: Isabella Vieira Ferreira
+		Lucivânia Ester da Costa
+		Monica Neli de Resende
+Semestre: 2015/02
+Disciplina: Redes
+Curso/Universidade: Ciência da Computação | UFSJ
+##################################################################################################################
+
+A aplicação foi desenvolvida em Java.
+
+Para rodar os algoritmos desenvolvidos, deve-se possuir uma IDE como o Eclipse ou Netbeans e Java instalado em seu PC.
+
+Para tal, deve-se criar dois projetos: um para o cliente e outro para o servidor.
+
+Então, deve-se clicar em "run" e executar o código do servidor primeiramente. Logo após, deve-se clicar em "run" e executar o código do cliente. Ressaltamos que deverão ser criados dois processos diferentes.
+
+Caso queira alterar os dados que são requisitados, deve-se alterar em /src/Client.java no método CriarDatagrama na linha 34 onde contém a seguinte linha:
+	String mensagemParaEnviar = new String("Testando envio de uma mensagem");
+
+Ressaltamos que nosso código só possibilita o envio de texto.
